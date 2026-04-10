@@ -1,5 +1,4 @@
 import {experiences} from "@/app/data";
-import {isMobile} from "react-device-detect";
 
 export default function ExperienceCard() {
     return (
