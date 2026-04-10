@@ -2,7 +2,7 @@ import {experiences} from "@/app/data";
 
 export default function ExperienceCard() {
     return (
-        <div className="flex items-center md:items-start justify-center md:max-h-lvh overflow-y-auto md:overflow-y-scroll min-h-0 px-5 md:px-10 lg:px-20 lg:py-20">
+        <div className="flex items-center lg:items-start justify-center lg:max-h-lvh overflow-y-auto lg:overflow-y-scroll min-h-0 px-5 md:px-10 lg:px-20 lg:py-20">
             <div className="w-full flex flex-col items-start justify-center gap-3 md:gap-10 lg:gap-5 py-2 lg:py-0">
                 {experiences.map((experience, index) => (
                     <a id="exp-list" key={index} href={experience.href} target="_blank" className="flex flex-col md:grid-cols-4 lg:p-4 gap-1 md:gap-0 hover:bg-foreground rounded-lg items-start">
